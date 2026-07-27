@@ -69,7 +69,3 @@ The active bonus and its remaining duration are shown in the bottom panel.
 
 - C#, WPF: `Canvas`, `Shapes` (`Rectangle`, `Ellipse`), `Media` (gradients, `DropShadowEffect`), `Animation` (`DoubleAnimation`, `ScaleTransform`)
 - `System.Windows.Threading.DispatcherTimer` — the game loop, particle spawning, and the bonus timer
-
-## Note
-
-The original specification for this project was written for a different game ("Magnetic Cascade" — an arcade about a magnetic pole and falling spheres), but the actual implementation was adapted into a standalone game with different mechanics — built around particles, antiparticles, and annihilation. This README describes the game as it actually exists in the repository's code.
